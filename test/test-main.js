@@ -1,7 +1,7 @@
 import chai, { expect } from 'chai';
 import _ from 'underscore';
-import WishlistStrategy from '../lib/WishlistStrategy';
-import LocalWishlist from '../lib/LocalWishlist';
+import WishlistStrategy from '../lib/strategy-types/WishlistStrategy';
+import LocalWishlist from '../lib/strategies/LocalWishlist';
 
 
 describe('LocalWishlist methods', () => {

@@ -1,6 +1,6 @@
 import _ from 'underscore';
 
-import WishlistStrategy, { WishlistStrategyError } from './WishlistStrategy';
+import WishlistStrategy, { WishlistStrategyError } from '../strategy-types/WishlistStrategy';
 
 
 export default class LocalWishlist extends WishlistStrategy {
