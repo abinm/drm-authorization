@@ -4,9 +4,9 @@
   "description": "Wishlist strategy example for Baracus",
   "main": "index.js",
   "scripts": {
-    "compile": "make",
+    "compile": "babel ./src -d lib --ignore '__tests__'",
     "just-test": "mocha --compilers js:babel/register",
-    "test": "npm run build && npm run just-test",
+    "test": "npm run compile && npm run just-test",
     "preinstall": "npm run compile"
   },
   "keywords": [
