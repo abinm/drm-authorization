@@ -1,0 +1,25 @@
+{
+  "name": "baracus-wishlist",
+  "version": "0.1.0",
+  "description": "Wishlist strategy example for Baracus",
+  "main": "index.js",
+  "scripts": {
+    "build": "make",
+    "just-test": "mocha --compilers js:babel/register",
+    "test": "npm run build && npm run just-test"
+  },
+  "keywords": [
+    "feature",
+    "detection"
+  ],
+  "author": "pgwsmith@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
