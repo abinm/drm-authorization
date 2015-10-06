@@ -1,4 +1,4 @@
-# Baracus Wishlist
+# DRM Authorization
 
 ## Strategy Types
 
